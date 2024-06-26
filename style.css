@@ -56,7 +56,7 @@ section.section1 {
     align-items: center;
     justify-content: center;
     gap: 9rem;
-    padding: 3rem 10rem;
+    padding: 3rem 13rem;
 }
 .section1 .part1, .section1 .part2 {
     background-color: #EDEDED;
@@ -81,6 +81,9 @@ section.section1 {
 }
 .section1 .part2 .desc {
     margin-bottom: 1rem;
+}
+.section1 .part2 {
+    border-radius: 12%;
 }
 .section1 button {
     padding: 10px 20px;
