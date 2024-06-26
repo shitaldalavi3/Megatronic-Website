@@ -97,3 +97,23 @@ section.section1 {
    text-align: center;
 }
 /* END Section1 css */
+/* START Section2 css */
+.brandlogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.section2 {
+    background-color: #D6D6D6;
+    padding: 3rem 0;
+}
+.section2 img {
+    max-width: 100%;
+}
+.section2 .title {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 18px;
+}
+/* END Section2 css */
