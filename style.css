@@ -49,3 +49,51 @@ header a:hover {
     background-color: #fff;
 }
 /* END Header css */ 
+/* START Section1 css */
+section.section1 {
+    background-color: #C4C4C4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9rem;
+    padding: 3rem 10rem;
+}
+.section1 .part1, .section1 .part2 {
+    background-color: #EDEDED;
+    padding: 2rem;
+}
+.section1 .title p {
+    background-color: #F7CB00;
+    display: inline-block;
+    padding: 1rem;
+}
+.section1 .title {
+    margin-bottom: 5rem;
+}
+.section1 .heading p {
+    font-size: 26px;
+}
+.section1 .heading {
+    margin-bottom: 5px;
+}
+.section1 .part1 .desc {
+    margin-bottom: 5rem;
+}
+.section1 .part2 .desc {
+    margin-bottom: 1rem;
+}
+.section1 button {
+    padding: 10px 20px;
+    background-color: #2D519A;
+    color: white;
+    border-color: #2D519A;
+}
+.section1 button:hover {
+    background-color: #F7CB00;
+    color: black;
+    border-color: #F7CB00;
+}
+.section1 .part2 {
+   text-align: center;
+}
+/* END Section1 css */
