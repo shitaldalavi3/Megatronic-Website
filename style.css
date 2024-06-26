@@ -117,3 +117,31 @@ section.section1 {
     font-size: 18px;
 }
 /* END Section2 css */
+/* START FOOTER css */
+footer {
+    float: left;
+    width: 100%;
+    background-color: #EDEDED;
+    text-align: center;
+    padding: 6rem 0;
+}
+footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+i.material-icons {
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+    background-color: #C4C4C4;
+    margin: 0 10px;
+}
+footer nav {
+    margin: 2rem 0;
+}
+footer .title {
+    font-size: 22px;
+}
+/* END FOOTER css */
