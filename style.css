@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.products-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.product-card h3 {
+  font-size: 1em;
+  font-weight: 700;
+  color: #333;
+  padding: 10px;
+  border-radius: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px 0;
+}
+
+.product-card p {
+  font-size: 16px;
+  color: blue !important;
+  margin: 5px 0;
+}
+
+.product-card button {
+  background-color: #3032d8;
+  color: #f4f4f7;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 1em;
+}
+
+.trending-products .product-card button,
+.best-products .product-card button {
+  background-color: #3032d8;
+  color: #f4f4f7;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 1em;
+}
+
+.product-card button:hover {
+  color: #c8e42d;
+  background-color: #555;
+}
+
+.trending-products h2,
+.best-products h2,
+.title {
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #333;
+  background: linear-gradient(to right, #0e0d0d, #2724e9);
+  -webkit-background-clip: text;
+  color: transparent;
+  padding: 20px;
+  border-radius: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.product-card h3 {
+  font-size: 1em;
+  font-weight: 700;
+  color: #333;
+  padding: 10px;
+  border-radius: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px 0;
+}
+
+.section3 {
+  background-color: #ababab;
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.video-content {
+  display: flex;
+  justify-content: center;
+}
+
+.trending-products h2,
+.best-products h2,
+.title {
+  font-size: 2.5em;
+  font-weight: 700;
+  color: #333;
+  background: linear-gradient(to right, #0e0d0d, #2724e9);
+  -webkit-background-clip: text;
+  color: transparent;
+  padding: 20px;
+  border-radius: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  text-align: center;
+}
