@@ -1,200 +1,145 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-size: 14px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
 }
 
 .trending-products .container {
-    text-align: center;
+  text-align: center;
 }
 
 .best-products .container {
-    text-align: center;
+  text-align: center;
 }
 
-.trending-products h2 {
-    margin-bottom: 20px;
-}
-
+.trending-products h2,
 .best-products h2 {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
-.trending-products .products-grid {
-    display: flex;
-    justify-content: start;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-
+.trending-products .products-grid,
 .best-products .products-grid {
-    display: flex;
-    justify-content: start;
-    gap: 20px;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
-.trending-products .product-card {
-    border: 1px solid #ddd;
-    padding: 10px;
-    width: 200px;
-    text-align: center;
-}
-
+.trending-products .product-card,
 .best-products .product-card {
-    border: 1px solid #ddd;
-    padding: 10px;
-    width: 200px;
-    text-align: center;
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
 }
 
-.trending-products .product-card img {
-    max-width: 100%;
-    height: auto;
-}
-
+.trending-products .product-card img,
 .best-products .product-card img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
-.trending-products .product-card h3 {
-    margin: 10px 0;
-}
-
+.trending-products .product-card h3,
 .best-products .product-card h3 {
-    margin: 10px 0;
+  margin: 10px 0;
 }
 
-.trending-products .product-card p {
-    margin: 5px 0;
-    font-size: 16px;
-    color: #333;
-}
-
+.trending-products .product-card p,
 .best-products .product-card p {
-    margin: 5px 0;
-    font-size: 16px;
-    color: #333;
+  margin: 5px 0;
+  font-size: 16px;
+  color: #333;
 }
 
-.trending-products .product-card button {
-    background-color: #3032d8;
-    color: #f4f4f7;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 1em;
-}
-
+.trending-products .product-card button,
 .best-products .product-card button {
-    background-color: #3032d8;
-    color: #f4f4f7;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 1em;
+  background-color: #3032d8;
+  color: #f4f4f7;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 1em;
 }
 
-.trending-products .product-card button:hover {
-    color: #c8e42d;
-    background-color: #555;
-}
-
+.trending-products .product-card button:hover,
 .best-products .product-card button:hover {
-    color: #c8e42d;
-    background-color: #555;
+  color: #c8e42d;
+  background-color: #555;
 }
 
 /* ... */
-.trending-products h2 {
-    display: flex;
-}
-
+.trending-products h2,
 .best-products h2 {
-    display: flex;
+  display: flex;
 }
 
 .product-card p {
-    color: blue !important;
-    /* Use !important to override any other conflicting styles */
-    margin-top: auto;
+  color: blue !important;
+  /* Use !important to override any other conflicting styles */
+  margin-top: auto;
 }
 
 .product-card {
-    border: 1px solid #ddd;
-    padding: 10px;
-    width: 200px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    text-align: center;
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
 }
 
 .product-card button {
-    background-color: #333;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    margin-top: auto;
-    /* Ensure the button is at the bottom */
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: auto;
+  /* Ensure the button is at the bottom */
 }
 
 .container {
-    color: #111;
-    display: inline-block;
-    float: left;
-    font: 600 20px / 34px "Poppins", sans-serif;
-    margin: 0;
-    width: auto;
-    padding: 6px 0;
-    text-align: left;
+  color: #111;
+  display: inline-block;
+  float: left;
+  font: 600 20px / 34px "Poppins", sans-serif;
+  margin: 0;
+  width: auto;
+  padding: 6px 0;
+  text-align: left;
 }
 
-.trending-products h2 {
-    font-size: 1.5em;
-    font-weight: 700;
-    color: #333;
-    background: linear-gradient(to right, #0e0d0d, #2724e9);
-    -webkit-background-clip: text;
-    color: transparent;
-    padding: 20px;
-    border-radius: 10px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
-    margin-bottom: 10px;
-    display: flex;
-}
-
+.trending-products h2,
 .best-products h2 {
-    font-size: 1.5em;
-    font-weight: 700;
-    color: #333;
-    background: linear-gradient(to right, #0e0d0d, #2724e9);
-    -webkit-background-clip: text;
-    color: transparent;
-    padding: 20px;
-    border-radius: 10px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
-    margin-bottom: 10px;
-    display: flex;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #333;
+  background: linear-gradient(to right, #0e0d0d, #2724e9);
+  -webkit-background-clip: text;
+  color: transparent;
+  padding: 20px;
+  border-radius: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  display: flex;
 }
 
 h3 {
-    font-size: 1em;
-    font-weight: 700;
-    text-wrap: nowrap;
-    color: #333;
-    padding: 20px;
-    border-radius: 10px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
-    margin-top: 20px;
-    margin-bottom: 10px;
-    display: flex;
+  font-size: 1em;
+  font-weight: 700;
+  text-wrap: nowrap;
+  color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: flex;
 }
