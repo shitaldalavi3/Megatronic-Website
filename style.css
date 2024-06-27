@@ -212,8 +212,7 @@ footer .title {
 }
 
 .trending-products h2,
-.best-products h2,
-.title {
+.best-products h2{
   font-size: 1.5em;
   font-weight: 700;
   color: #333;
@@ -227,7 +226,11 @@ footer .title {
   display: flex;
   justify-content: center;
 }
-
+.section3 .title {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 26px;
+}
 .product-card h3 {
   font-size: 1em;
   font-weight: 700;
@@ -250,8 +253,7 @@ footer .title {
 }
 
 .trending-products h2,
-.best-products h2,
-.title {
+.best-products h2 {
   font-size: 2.5em;
   font-weight: 700;
   color: #333;
